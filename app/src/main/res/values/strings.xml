@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DoctorRasya</string>
+    <string name="konsultasikan_hanya_dengan_ndokter_kepercayaan_anda">Konsultasikan hanya dengan Dokter \<font color='#1fc29d'>kepercayaan anda</font></string>
+    <string name="consult_only_with_a_ndoctor_your_trust">consult only with a<font color='#1fc29d'>\nDoctor your trust</font></string>
+</resources>

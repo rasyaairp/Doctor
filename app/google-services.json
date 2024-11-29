@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "943452530408",
+    "project_id": "doctorrasya",
+    "storage_bucket": "doctorrasya.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943452530408:android:8266250218a488ce85cb5d",
+        "android_client_info": {
+          "package_name": "com.mochrasya.doctorrasya"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAljyRjgt3jgQOG9JfKDEhkxU7fBwO4F_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

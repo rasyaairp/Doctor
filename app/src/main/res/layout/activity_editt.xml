@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    tools:context=".editt">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Non-editable ID -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Docter ID "
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Docter ID"
+            android:enabled="false"
+            android:inputType="text" />
+
+        <!-- Name -->
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Docter"
+            android:inputType="text" />
+
+        <!-- Address -->
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alamat"
+            android:inputType="text" />
+
+        <!-- Biography -->
+        <EditText
+            android:id="@+id/etBiography"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Biografi"
+            android:inputType="text" />
+
+        <!-- Cost -->
+        <EditText
+            android:id="@+id/etCost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Biaya"
+            android:inputType="text" />
+
+        <!-- Date -->
+        <EditText
+            android:id="@+id/etDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tanggal"
+            android:inputType="text" />
+
+        <!-- Experience -->
+        <EditText
+            android:id="@+id/etExperience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Perangkat"
+            android:inputType="text" />
+
+        <!-- Mobile -->
+        <EditText
+            android:id="@+id/etMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nomor"
+            android:inputType="text" />
+
+        <!-- Patients -->
+        <EditText
+            android:id="@+id/etPatients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pengalaman"
+            android:inputType="text" />
+
+        <!-- Picture URL -->
+        <EditText
+            android:id="@+id/etPicture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Foto Url"
+            android:inputType="text" />
+
+        <!-- Rating -->
+        <EditText
+            android:id="@+id/etRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Rating"
+            android:inputType="text" />
+
+        <!-- Specialty -->
+        <EditText
+            android:id="@+id/etSpecial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Spesialisasi"
+            android:inputType="text" />
+
+        <!-- Time -->
+        <EditText
+            android:id="@+id/etTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Waktu"
+            android:inputType="text" />
+
+        <!-- Location -->
+        <EditText
+            android:id="@+id/etLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lokasi"
+            android:inputType="text" />
+
+        <!-- Update Button -->
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/darkGreen"
+            android:layout_height="wrap_content"
+            android:text="Update Docter" />
+
+    </LinearLayout>
+</ScrollView>
